@@ -1,0 +1,21 @@
+
+@import "tailwindcss";
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+  font-family: 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+  /* background-image: url('./assets/bgstars.png'); */
+  background-color: #ede7d7;
+  z-index: 1;
+
+}
